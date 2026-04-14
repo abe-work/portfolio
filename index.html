@@ -52,7 +52,31 @@
       <h3 class="section-title">02 / Selected Works</h3>
 
       <div class="works-list">
-        <!-- Work 1 -->
+        <article class="work-item">
+          <div class="work-header">
+            <h4 class="work-title">クラウドファンディング管理システム「CONGRANT」</h4>
+            <span class="work-role">開発</span>
+          </div>
+          <p class="work-desc">新規Webサービス立ち上げに際し、社長とマンツーマンで要件定義からリリースまでを一貫担当したクラウドファンディング管理システム。</p>
+          
+          <div class="work-details">
+            <div class="detail-block">
+              <h5>課題とアプローチ</h5>
+              <p>新規サービス立ち上げでは要件が流動的で、仕様策定と開発の整合性が重要でした。社長と密に連携し、要求を丁寧に整理しながら設計に落とし込みました。</p>
+            </div>
+            <div class="detail-block">
+              <h5>設計・解決策</h5>
+              <p>PHP・MySQL を中心に管理画面、決済機能、運用管理機能を設計・実装。初期フェーズから運用まで一貫して関わり、サービス全体の流れを俯瞰して判断できる体制を構築しました。</p>
+            </div>
+          </div>
+          <div class="work-links">
+            <h5>参考リンク</h5>
+            <ul>
+              <li><a href="https://congrant.com/jp/" target="_blank" rel="noopener">congrant.com</a></li>
+            </ul>
+          </div>
+        </article>
+        
         <article class="work-item">
           <div class="work-header">
             <h4 class="work-title">犬同伴宿泊施設ポータル「いぬやど」</h4>
@@ -70,25 +94,36 @@
               <p>空間座標と施設情報を厳密に分離し、キャッシュAPIを用いて画像をサイドロード化。また、関心の分離（Separation of Concerns）を徹底した堅牢なオブジェクト指向を用い、API処理やデータ処理をクラス化しました。</p>
             </div>
           </div>
+          <div class="work-links">
+            <h5>参考リンク</h5>
+            <ul>
+              <li><a href="https://www.pet-inu-yado.com/" target="_blank" rel="noopener">プロジェクト概要</a></li>
+            </ul>
+          </div>
         </article>
 
-        <!-- Work 2 -->
         <article class="work-item">
           <div class="work-header">
             <h4 class="work-title">オリジナルグッズ制作プラットフォーム</h4>
-            <span class="work-role">運用 / 開発基盤改善</span>
+            <span class="work-role">リニューアル</span>
           </div>
-          <p class="work-desc">ユーザー独自のカスタマイズデザインから商品生産・発注までを自動化するEC基盤。</p>
+          <p class="work-desc">EC CUBE で構築されたサイトのテンプレートをゼロから作成し、各セクションをパーツ化して直感的に更新できるサイトリニューアルを実現。</p>
           
           <div class="work-details">
             <div class="detail-block">
               <h5>課題とアプローチ</h5>
-              <p>複雑な入稿オプションと工場連携（CSV・生産フロー）が密結合し、わずかな仕様変更が「重大なデータ不整合」を招きかねない保守性の低いレガシー状態でした。</p>
+              <p>既存サイトは更新に手間がかかる構造で、運用側が頻繁にコンテンツを更新するには非効率でした。EC CUBE のテンプレート構造を見直し、再利用しやすいパーツベースの設計へ切り替えました。</p>
             </div>
             <div class="detail-block">
               <h5>設計・解決策</h5>
-              <p>ステートマシン（状態遷移）の厳密な定義に基づき、点在していた判定処理を集約。複雑なトランザクションを保護しつつ、段階的に安全な共通クラスへと切り出し、変更要求に素早く応じられる基盤へと脱却させました。</p>
+              <p>ゼロからテンプレートを構築し、各セクションを独立したパーツとして設計。管理画面から直感的に更新できるようにし、保守性と運用効率を大幅に向上させました。</p>
             </div>
+          </div>
+          <div class="work-links">
+            <h5>参考リンク</h5>
+            <ul>
+              <li><a href="https://goods-intl.com/" target="_blank" rel="noopener">goods-intl.com</a></li>
+            </ul>
           </div>
         </article>
       </div>
