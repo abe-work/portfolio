@@ -232,6 +232,10 @@ a {
   .work-details {
     grid-template-columns: 1fr 1fr;
   }
+
+  .work-details .detail-block:nth-child(3) {
+    grid-column: span 2;
+  }
 }
 
 /* ==================
