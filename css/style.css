@@ -213,6 +213,21 @@ a {
   color: var(--text-muted);
 }
 
+.detail-block ul {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  column-count: 2;
+  column-gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detail-block li {
+  margin-bottom: 0.5rem;
+  break-inside: avoid;
+}
+
 @media (min-width: 768px) {
   .work-details {
     grid-template-columns: 1fr 1fr;
